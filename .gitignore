@@ -1,0 +1,14 @@
+# Never commit secrets
+*.env
+*wifi*password*
+NetworkManager/system-connections/
+*.key
+*.pem
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+*.swp
+.vscode/
